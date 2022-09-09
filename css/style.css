@@ -212,3 +212,8 @@ iframe {
 .fa-circle {
     font-size: 13px;
 }
+
+header.bg-blue {
+    background: #6CBBF9;
+    height: auto !important;
+}
