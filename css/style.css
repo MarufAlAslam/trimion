@@ -93,3 +93,7 @@ iframe {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.bg-blue {
+    background-color: #EDF8FC;
+}
