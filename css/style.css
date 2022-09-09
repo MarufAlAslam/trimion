@@ -170,3 +170,11 @@ iframe {
 .fs-64 {
     font-size: 64px;
 }
+
+.iframe-full.h-50 {
+    height: 300px !important;
+}
+
+.iframe-full.h-50 iframe {
+    height: 300px !important;
+}
