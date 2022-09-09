@@ -138,3 +138,27 @@ header.about-hero {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.img-fluid.dots {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    z-index: 0;
+    width: 110px;
+}
+
+iframe {
+    position: relative;
+    z-index: 100;
+}
+
+.overlay {
+    background-image: url("../img/overlay.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
