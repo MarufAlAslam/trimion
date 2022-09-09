@@ -268,3 +268,65 @@ header.bg-blue {
         margin-left: 0 !important;
     }
 }
+
+@media screen and (max-width: 767px) {
+    header {
+        min-height: auto;
+        background-image: url("../img/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fs-5.text-blue {
+        font-size: 20px;
+    }
+
+    .fs-40 {
+        font-size: 20px;
+    }
+
+    h1.font-weight-semibold.text-blue {
+        font-size: 25px;
+    }
+
+    .fs-60 {
+        font-size: 30px;
+    }
+
+    .fs-30 {
+        font-size: 20px;
+    }
+
+    header.about-hero {
+        min-height: auto;
+        background-image: url("../img/scandinavian-children-room-design-ideas-light-pink-color-wall-background-3d-rendering.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .fs-32 {
+        font-size: 22px;
+    }
+
+    .overlay {
+        background-image: url("../img/overlay.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+
+    .fs-64 {
+        font-size: 25px;
+    }
+
+    .logos .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+    }
+
+    .logos img {
+        margin: 15px 0;
+    }
+}
