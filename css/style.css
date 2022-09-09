@@ -225,3 +225,46 @@ header.bg-blue {
 .btn6Field {
     display: none;
 }
+
+@media screen and (max-width: 992px) {
+    .btns.d-flex.justify-content-between.align-items-center {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .btns.d-flex.justify-content-between.align-items-center .btn {
+        margin: 10px !important;
+        /* margin: auto; */
+    }
+
+    .fs-40 {
+        font-size: 30px;
+    }
+
+    .fs-60 {
+        font-size: 50px;
+    }
+
+    footer .text-right {
+        text-align: left !important;
+    }
+
+    footer .list-unstyled.d-flex.justify-content-end.align-items-center {
+        justify-content: flex-start !important;
+    }
+
+    footer .list-unstyled.d-flex.justify-content-end.align-items-center ul li:first-child {
+        margin: 0 !important;
+    }
+
+    .ml-3.icon-holder {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+    }
+
+    .nav-item.ml-5 {
+        margin-left: 0 !important;
+    }
+}
