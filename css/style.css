@@ -217,3 +217,11 @@ header.bg-blue {
     background: #6CBBF9;
     height: auto !important;
 }
+
+.btn2Field,
+.btn3Field,
+.btn4Field,
+.btn5Field,
+.btn6Field {
+    display: none;
+}
