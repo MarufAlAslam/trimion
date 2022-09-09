@@ -31,8 +31,23 @@ $('.slider').slick({
                 slidesToScroll: 1
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
     ]
+});
+
+
+
+$('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true
 });

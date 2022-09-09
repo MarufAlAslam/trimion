@@ -190,3 +190,25 @@ iframe {
     top: 30px;
     margin-top: -30px;
 }
+
+.slider-nav {
+    margin-top: 20px !important;
+}
+
+.slider-nav .slick-track {
+    width: 100% !important;
+}
+
+.slider-nav .slick-list.draggable {
+    padding: 0 !important;
+}
+
+.slider-nav .slide {
+    margin: auto !important;
+    width: 20% !important;
+    padding: 4px;
+}
+
+.fa-circle {
+    font-size: 13px;
+}
