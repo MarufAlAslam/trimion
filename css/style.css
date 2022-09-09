@@ -68,3 +68,28 @@ iframe {
 .fs-30 {
     font-size: 30px;
 }
+
+.slickSlider {
+    background: url("../img/slide-012.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn.prevBtn.slick-arrow {
+    position: absolute;
+    z-index: 10;
+    left: -50px;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn.nextBtn.slick-arrow {
+    position: absolute;
+    z-index: 10;
+    right: -50px;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
