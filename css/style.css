@@ -119,3 +119,22 @@ footer {
 .ml-3.icon-holder:hover a {
     color: white !important;
 }
+
+body {
+    min-height: 100vh;
+}
+
+header.about-hero {
+    min-height: 80vh;
+    background-image: url("../img/scandinavian-children-room-design-ideas-light-pink-color-wall-background-3d-rendering.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border-left.border-info.border-3.pl-4 {
+    border-left: 3px solid #52D3ED !important;
+    padding-bottom: 19px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
