@@ -162,3 +162,11 @@ iframe {
 .fs-24 {
     font-size: 24px;
 }
+
+.text-warning {
+    color: #F7AF07 !important;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
